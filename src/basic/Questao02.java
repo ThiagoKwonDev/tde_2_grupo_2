@@ -55,7 +55,6 @@ public class Questao02 {
 
         Configuration conf = new Configuration();
 
-        // Defina os caminhos do arquivo de entrada e da pasta de saída
         Path input = new Path("in/operacoes_comerciais_inteira.csv"); // caminho do arquivo de entrada
         Path output = new Path("output/resultado_questao02"); // pasta de saída
 
