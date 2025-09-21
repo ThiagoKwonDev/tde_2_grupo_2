@@ -29,8 +29,8 @@ public class PreprocessTransactions extends Configured implements Tool {
         protected void map(LongWritable key, Text value, Context ctx) throws IOException, InterruptedException {
             String line = value.toString();
             if (line == null) return;
-            line = line.trim();
             if (line.isEmpty()) return;
+            line = line.trim();
 
             // Detecta e remove cabeçalho em qualquer arquivo/split
             if (isHeaderLine(line)) {
