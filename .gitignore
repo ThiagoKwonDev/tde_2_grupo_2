@@ -1,5 +1,4 @@
-operacoes_comerciais_inteira.csv
-build/
-*.class
-*.jar
-*.log
+out/
+target/
+out/
+target/
